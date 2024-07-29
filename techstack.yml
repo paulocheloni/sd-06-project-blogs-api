@@ -1,0 +1,303 @@
+repo_name: paulocheloni/sd-06-project-blogs-api
+report_id: 3fb7d393484c2814e23bd62636e49d8c
+version: 0.1
+repo_type: Public
+timestamp: '2024-07-29T14:30:55+00:00'
+requested_by: GabrielCoruja
+provider: github
+branch: master
+detected_tools_count: 18
+tools:
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api
+  detection_source: Repo Metadata
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: Sequelize
+  description: Easy-to-use multi SQL dialect ORM for Node.js
+  website_url: https://sequelize.org/
+  version: 6.3.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3211/3591786.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: Dotenv
+  description: Loads environment variables from .env for Nodejs projects
+  website_url: https://github.com/motdotla/dotenv
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Server Configuration and Automation
+  image_url: https://img.stackshare.io/service/8067/default_90dcb1286af7685c68df319c764b80704df1155b.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api
+  detection_source: Repo Metadata
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/.github/workflows/main.yml
+  detection_source: ".github/workflows/main.yml"
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:44.000000000 Z
+- name: Jest
+  description: Painless JavaScript Unit Testing
+  website_url: http://facebook.github.io/jest/
+  version: 26.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/830/jest.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: SuperTest
+  description: A library for testing node.js HTTP servers
+  website_url: https://www.npmjs.com/package/supertest
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/yarn.lock
+  detection_source: yarn.lock
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: mysql2
+  description: Fast mysql driver
+  package_url: https://www.npmjs.com/mysql2
+  version: 2.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16671/default_4b738bf1758d38dddd276589bbea47fca5a990df.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+  vulnerabilities:
+  - name: MySQL2 for Node Arbitrary Code Injection
+    cve_id: CVE-2024-21511
+    cve_url: https://github.com/advisories/GHSA-4rch-2fh8-94vw
+    detected_date: Apr 24
+    severity: critical
+    first_patched: 3.9.7
+  - name: mysql2 Remote Code Execution (RCE) via the readCodeFor function
+    cve_id: CVE-2024-21508
+    cve_url: https://github.com/advisories/GHSA-fpw7-j2hg-69v5
+    detected_date: Apr 13
+    severity: critical
+    first_patched: 3.9.4
+  - name: mysql2 vulnerable to Prototype Pollution
+    cve_id: CVE-2024-21512
+    cve_url: https://github.com/advisories/GHSA-pmh2-wpjm-fj45
+    detected_date: May 31
+    severity: high
+    first_patched: 3.9.8
+  - name: mysql2 cache poisoning vulnerability
+    cve_id: CVE-2024-21507
+    cve_url: https://github.com/advisories/GHSA-mqr2-w7wj-jjgr
+    detected_date: Apr 13
+    severity: moderate
+    first_patched: 3.9.3
+  - name: mysql2 vulnerable to Prototype Poisoning
+    cve_id: CVE-2024-21509
+    cve_url: https://github.com/advisories/GHSA-49j4-86m8-q2jw
+    detected_date: Apr 13
+    severity: moderate
+    first_patched: 3.9.4
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.17.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+  - name: Express.js Open Redirect in malformed URLs
+    cve_id: CVE-2024-29041
+    cve_url: https://github.com/advisories/GHSA-rv95-896h-c2vc
+    detected_date: Mar 26
+    severity: moderate
+    first_patched: 4.19.2
+- name: shelljs
+  description: Portable Unix shell commands for Node.js
+  package_url: https://www.npmjs.com/shelljs
+  version: 0.8.4
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15897/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+  vulnerabilities:
+  - name: Improper Privilege Management in shelljs
+    cve_id: CVE-2022-0144
+    cve_url: https://github.com/advisories/GHSA-4rq4-32rv-6wp6
+    detected_date: Jan 22
+    severity: high
+    first_patched: 0.8.5
+  - name: Improper Privilege Management in shelljs
+    cve_id:
+    cve_url: https://github.com/advisories/GHSA-64g7-mvw6-v9qj
+    detected_date: Jan 15
+    severity: moderate
+    first_patched: 0.8.5
+- name: eslint-config-airbnb-base
+  description: Airbnb's base JS ESLint config, following our styleguide
+  package_url: https://www.npmjs.com/eslint-config-airbnb-base
+  version: 14.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15888/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.21.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
+- name: sequelize-cli
+  description: The Sequelize CLI
+  package_url: https://www.npmjs.com/sequelize-cli
+  version: 6.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18714/default_5921235b47b1f6f3bd5aba9257245016601078bf.png
+  detection_source_url: https://github.com/paulocheloni/sd-06-project-blogs-api/blob/master/package-lock.json
+  detection_source: package.json
+  last_updated_by: Jean Paulo Silva Vasconcelos
+  last_updated_on: 2021-04-05 15:09:38.000000000 Z
